@@ -1,0 +1,159 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+
+    <!-- Whimsical Twilight sky background -->
+    <path
+        android:pathData="M0,0 L320,0 L320,200 L0,200 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="160"
+                android:startY="0"
+                android:endX="160"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2E1065"/>
+                <item android:offset="0.5" android:color="#4C1D95"/>
+                <item android:offset="1.0" android:color="#701A75"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing fantasy crescent moon -->
+    <path
+        android:pathData="M270,30 C255,30 242,42 242,58 C242,74 255,86 270,86 C262,82 256,70 256,58 C256,46 262,34 270,30 Z"
+        android:fillColor="#FEF08A"/>
+
+    <!-- Floating mystical stars -->
+    <path android:pathData="M40,30 L42,34 L46,36 L42,38 L40,42 L38,38 L34,36 L38,34 Z" android:fillColor="#FDE68A"/>
+    <path android:pathData="M90,50 L91.5,53 L94.5,54.5 L91.5,56 L90,59 L88.5,56 L85.5,54.5 L88.5,53 Z" android:fillColor="#FDE68A"/>
+    <path android:pathData="M180,25 L181.5,28 L184.5,29.5 L181.5,31 L180,34 L178.5,31 L175.5,29.5 L178.5,28 Z" android:fillColor="#FDE68A"/>
+    <path android:pathData="M220,55 L221,57 L223,58 L221,59 L220,61 L219,59 L217,58 L219,57 Z" android:fillColor="#FEF08A"/>
+
+    <!-- Grassy dream hills -->
+    <path
+        android:pathData="M0,120 Q80,95 160,115 T320,105 L320,200 L0,200 Z"
+        android:fillColor="#047857"/>
+    <path
+        android:pathData="M0,140 Q100,120 200,140 T320,125 L320,200 L0,200 Z"
+        android:fillColor="#065F46"/>
+
+    <!-- Alice's whimsical Rabbit Hole with golden glow -->
+    <path
+        android:pathData="M140,165 C140,150 180,150 180,165 C180,180 140,180 140,165 Z"
+        android:fillColor="#18181B"/>
+    <path
+        android:pathData="M145,165 C145,155 175,155 175,165 C175,175 145,175 145,165 Z"
+        android:fillColor="#F59E0B"/>
+
+    <!-- Giant wonderland mushroom -->
+    <path
+        android:pathData="M50,130 Q30,130 30,110 Q30,85 70,85 Q110,85 110,110 Q110,130 90,130 Z"
+        android:fillColor="#DC2626"/>
+    <!-- Mushroom white polka dots -->
+    <path android:pathData="M55,100 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M85,98 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M70,115 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" android:fillColor="#FFFFFF"/>
+    <!-- Mushroom stalk -->
+    <path
+        android:pathData="M62,128 L60,180 L80,180 L78,128 Z"
+        android:fillColor="#FDF4FF"/>
+
+    <!-- "DRINK ME" glass vial sitting on mushroom -->
+    <path
+        android:pathData="M92,108 L104,108 L101,126 L95,126 Z"
+        android:fillColor="#38BDF8"/>
+    <path
+        android:pathData="M96,104 L100,104 L100,108 L96,108 Z"
+        android:fillColor="#FBBF24"/>
+
+    <!-- THE WHITE RABBIT IN WAISTCOAT -->
+    <!-- Rabbit Body -->
+    <path
+        android:pathData="M210,115 C210,105 230,105 230,115 C235,128 238,150 230,170 C222,176 208,176 204,168 C200,150 202,128 210,115 Z"
+        android:fillColor="#F8FAFC"/>
+    <!-- Red Dapper Waistcoat -->
+    <path
+        android:pathData="M208,122 C208,114 230,114 231,122 C234,136 230,154 225,158 C215,158 208,150 208,122 Z"
+        android:fillColor="#DC2626"/>
+    <!-- Bowtie -->
+    <path
+        android:pathData="M217,122 L212,118 L212,126 Z"
+        android:fillColor="#FBBF24"/>
+    <path
+        android:pathData="M221,122 L226,118 L226,126 Z"
+        android:fillColor="#FBBF24"/>
+    <path
+        android:pathData="M219,122 m-2,0 a2,2 0 1,1 4,0 a2,2 0 1,1 -4,0"
+        android:fillColor="#D97706"/>
+
+    <!-- Rabbit Head & Long White Ears -->
+    <path
+        android:pathData="M219,102 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0"
+        android:fillColor="#FFFFFF"/>
+    <!-- Left Ear -->
+    <path
+        android:pathData="M214,96 C212,80 210,65 214,60 C218,60 218,78 218,96 Z"
+        android:fillColor="#FFFFFF"/>
+    <path
+        android:pathData="M215,92 C214,80 212,68 215,64 C217,64 216,78 217,92 Z"
+        android:fillColor="#FDA4AF"/>
+    <!-- Right Ear with bend -->
+    <path
+        android:pathData="M222,96 C224,80 228,68 236,66 C238,70 230,82 226,96 Z"
+        android:fillColor="#FFFFFF"/>
+    <path
+        android:pathData="M223,92 C225,80 228,72 233,70 C234,72 229,82 225,92 Z"
+        android:fillColor="#FDA4AF"/>
+
+    <!-- Pink eye & spectacles -->
+    <path
+        android:pathData="M216,102 m-1.5,0 a1.5,1.5 0 1,1 3,0 a1.5,1.5 0 1,1 -3,0"
+        android:fillColor="#F43F5E"/>
+    <path
+        android:pathData="M216,102 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FBBF24"/>
+
+    <!-- Golden Pocket Watch in Paw! -->
+    <path
+        android:pathData="M200,138 m-7,0 a7,7 0 1,1 14,0 a7,7 0 1,1 -14,0"
+        android:fillColor="#F59E0B"/>
+    <path
+        android:pathData="M200,138 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"
+        android:fillColor="#FEF3C7"/>
+    <!-- Watch clock hands pointing to late! -->
+    <path
+        android:pathData="M200,138 L200,135 M200,138 L203,139"
+        android:strokeWidth="1.2"
+        android:strokeColor="#78350F"/>
+    <!-- Golden watch chain to waistcoat -->
+    <path
+        android:pathData="M200,131 Q206,128 212,130"
+        android:strokeWidth="1"
+        android:strokeColor="#FBBF24"/>
+
+    <!-- Floating Playing Cards (Ace of Hearts & Spades) -->
+    <!-- Card 1: Ace of Hearts -->
+    <path
+        android:pathData="M265,130 L285,135 L278,165 L258,160 Z"
+        android:fillColor="#FFFFFF"/>
+    <path
+        android:pathData="M270,147 C268,143 273,141 273,145 C273,148 269,152 269,152 C269,152 265,148 265,145 C265,141 270,143 270,147 Z"
+        android:fillColor="#DC2626"/>
+
+    <!-- Gilded Wonderland Plate Frame -->
+    <path
+        android:pathData="M4,4 L316,4 L316,196 L4,196 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#EC4899"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M8,8 L312,8 L312,192 L8,192 Z"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FDE68A"
+        android:fillColor="#00000000"/>
+</vector>

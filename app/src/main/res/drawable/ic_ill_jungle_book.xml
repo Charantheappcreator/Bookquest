@@ -1,0 +1,112 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+
+    <!-- Deep tropical jungle night sky -->
+    <path
+        android:pathData="M0,0 L320,0 L320,200 L0,200 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="160"
+                android:startY="0"
+                android:endX="160"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#064E3B"/>
+                <item android:offset="0.5" android:color="#022C22"/>
+                <item android:offset="1.0" android:color="#0F172A"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Luminous full moon over Council Rock -->
+    <path
+        android:pathData="M160,55 m-30,0 a30,30 0 1,1 60,0 a30,30 0 1,1 -60,0"
+        android:fillColor="#FEF9C3"/>
+
+    <!-- Tropical Jungle Canopy: Lush leaves and hanging vines -->
+    <!-- Hanging lianas / vines -->
+    <path android:pathData="M20,0 Q35,45 25,90" android:strokeWidth="2" android:strokeColor="#15803D"/>
+    <path android:pathData="M70,0 Q55,60 65,110" android:strokeWidth="2" android:strokeColor="#166534"/>
+    <path android:pathData="M260,0 Q245,55 255,100" android:strokeWidth="2" android:strokeColor="#15803D"/>
+    <path android:pathData="M300,0 Q315,40 305,80" android:strokeWidth="2" android:strokeColor="#166534"/>
+
+    <!-- Large palm / monstera leaves at corners -->
+    <path
+        android:pathData="M0,0 Q40,30 60,10 Q50,40 10,50 Z"
+        android:fillColor="#22C55E"/>
+    <path
+        android:pathData="M0,15 Q50,55 80,40 Q60,70 15,65 Z"
+        android:fillColor="#15803D"/>
+    <path
+        android:pathData="M320,0 Q280,30 260,10 Q270,40 310,50 Z"
+        android:fillColor="#22C55E"/>
+    <path
+        android:pathData="M320,15 Q270,55 240,40 Q260,70 305,65 Z"
+        android:fillColor="#15803D"/>
+
+    <!-- Seeonee Hills & Council Rock Ridge -->
+    <path
+        android:pathData="M0,135 Q100,100 180,125 T320,110 L320,200 L0,200 Z"
+        android:fillColor="#064E3B"/>
+
+    <!-- The Great Council Rock platform -->
+    <path
+        android:pathData="M90,140 L230,135 L260,195 L60,195 Z"
+        android:fillColor="#1E293B"/>
+    <path
+        android:pathData="M95,137 L225,133 L240,145 L80,145 Z"
+        android:fillColor="#334155"/>
+
+    <!-- MOWGLI & BALOO & BAGHEERA SILHOUETTES ON THE ROCK -->
+    <!-- Baloo the gentle giant bear silhouette sitting -->
+    <path
+        android:pathData="M110,140 C105,120 120,105 135,105 C148,105 155,120 155,140 L160,165 L105,165 Z"
+        android:fillColor="#0F172A"/>
+    <!-- Bear ears -->
+    <path android:pathData="M118,106 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" android:fillColor="#0F172A"/>
+    <path android:pathData="M142,106 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" android:fillColor="#0F172A"/>
+
+    <!-- Young Mowgli standing fearless beside Baloo -->
+    <path
+        android:pathData="M164,122 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"
+        android:fillColor="#D97706"/>
+    <!-- Mowgli body and limbs -->
+    <path
+        android:pathData="M164,127 L164,148 L160,165 M164,148 L168,165 M164,133 L157,144 M164,133 L172,142"
+        android:strokeWidth="2.5"
+        android:strokeColor="#D97706"/>
+
+    <!-- Bagheera the sleek black panther resting on rock edge -->
+    <path
+        android:pathData="M190,148 C185,142 195,136 215,138 C230,140 240,150 240,160 L185,160 Z"
+        android:fillColor="#020617"/>
+    <!-- Panther head & pointed ears -->
+    <path
+        android:pathData="M188,142 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"
+        android:fillColor="#020617"/>
+    <path android:pathData="M185,138 L183,133 L188,136 Z" android:fillColor="#020617"/>
+    <path android:pathData="M191,138 L193,133 L189,136 Z" android:fillColor="#020617"/>
+    <!-- Glowing emerald panther eyes! -->
+    <path android:pathData="M186,142 m-1,0 a1,1 0 1,1 2,0 a1,1 0 1,1 -2,0" android:fillColor="#10B981"/>
+    <!-- Long panther tail curling down rock -->
+    <path
+        android:pathData="M238,154 Q250,158 248,172"
+        android:strokeWidth="2.5"
+        android:strokeColor="#020617"/>
+
+    <!-- Gilded Jungle Book Plate Frame -->
+    <path
+        android:pathData="M4,4 L316,4 L316,196 L4,196 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#059669"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M8,8 L312,8 L312,192 L8,192 Z"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FDE68A"
+        android:fillColor="#00000000"/>
+</vector>
